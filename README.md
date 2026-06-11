@@ -216,3 +216,11 @@ python-bidi>=0.4.2
 | [medical-ocr-benchmarks](https://github.com/DrAbdulmalek/medical-ocr-benchmarks) | Benchmark suite |
 | [medical-ocr-trainer](https://github.com/DrAbdulmalek/medical-ocr-trainer) | Training tool |
 | [medical-ocr-trainer-hf](https://github.com/DrAbdulmalek/medical-ocr-trainer-hf) | HF Space deployment |
+
+---
+
+## Governance
+
+- **Versioned Datasets Policy**: See [DATASETS_POLICY.md](DATASETS_POLICY.md) for dataset versioning, quality gates, and release process
+- **Validation**: Run `python validate_dataset.py --data-dir data/vX.Y.Z/` before any release
+- **Official Status**: This repository is the **single source of truth** for ground truth data across the Medical OCR Ecosystem
