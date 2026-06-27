@@ -13,7 +13,7 @@ easyocr>=1.7.0
 paddleocr>=2.7.0
 
 # Arabic text processing
-arabic-reshaper>=3.0.0
+arabic-reshaper>=3.0.1
 python-bidi>=0.4.2
 
 # Data handling
