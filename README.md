@@ -219,6 +219,25 @@ python-bidi>=0.4.2
 
 ---
 
+## Built-in Tools
+
+This repository includes utility tools to streamline ground truth creation and evaluation.
+
+### `tools/ocr-groundtruth`
+
+A CLI tool for building ground truth from ABBYY/Readiris PDFs and measuring CER/WER.
+
+**Usage:**
+```bash
+cd tools/ocr-groundtruth
+pip install -e .
+python -m ocr_groundtruth.cli --help
+```
+
+> **Note:** This tool was merged from the standalone `ocr-groundtruth` repository (now archived). All future development happens here as part of the official ground truth ecosystem.
+
+---
+
 ## Governance
 
 - **Versioned Datasets Policy**: See [DATASETS_POLICY.md](DATASETS_POLICY.md) for dataset versioning, quality gates, and release process
