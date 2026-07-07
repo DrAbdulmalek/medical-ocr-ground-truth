@@ -1,3 +1,19 @@
+> ## Repository Archived
+
+This repository has been **archived**. Its code and functionality have been consolidated into the
+[omni-medical-suite](https://github.com/DrAbdulmalek/omni-medical-suite) monorepo.
+
+| Detail | Value |
+|--------|-------|
+| **Suite location** | `packages/gt_core/` |
+| **Original purpose** | Verified Arabic medical OCR reference datasets and benchmark pipeline |
+| **Archived on** | 2026-07-07 |
+| **Status** | Read-only - no further updates will be made here |
+
+Please use [omni-medical-suite](https://github.com/DrAbdulmalek/omni-medical-suite) for all development.
+
+---
+
 # Medical OCR Ground Truth System
 
 > Comprehensive system for importing, comparing, and improving Arabic Medical OCR using Ground Truth from ABBYY FineReader, ReadIRIS, and PDF Grabber.
